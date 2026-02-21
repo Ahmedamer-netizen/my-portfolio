@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed AlaaEldin | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav-logo">Ahmed</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#why-me">Why Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="theme-icon sun">☀️</span>
+            <span class="theme-icon moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Ahmed AlaaEldin</h1>
+          <p class="hero-tagline">Frontend Developer</p>
+          <p class="hero-intro">
+            I build modern web interfaces with clean code and great user experience.
+            Third-year Computer Science student passionate about frontend development.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-image-frame">
+            <img src="images/pfp.png" alt="Ahmed AlaaEldin" class="hero-image" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop'">
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-lead">
+              I am a third-year Computer Science student at the Faculty of Computers and Information.
+            </p>
+            <p>
+              I'm passionate about frontend development and building modern, responsive web interfaces. I enjoy transforming designs into clean, accessible, and high-performance websites using HTML, CSS, and JavaScript.
+            </p>
+            <p>
+              I'm always eager to improve my skills, explore new technologies, and follow best practices in web development. Outside of academics, I work on small projects, practice by building applications, and keep up with UI/UX trends. I focus on writing maintainable code and delivering user-centered experiences.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <span class="highlight-number">3rd Year</span>
+              <span class="highlight-label">CS Student</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-number">Frontend</span>
+              <span class="highlight-label">Developer</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-number">CS</span>
+              <span class="highlight-label">Background</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-me" class="section why-me">
+      <div class="container">
+        <h2 class="section-title">Why Work With Me?</h2>
+        <div class="why-me-grid">
+          <div class="why-me-card">
+            <span class="why-me-icon" aria-hidden="true">◇</span>
+            <h3>Motivated & Hands-On</h3>
+            <p>I’m a motivated frontend developer who enjoys building real projects and improving my skills through practice and hands-on experience.</p>
+          </div>
+          <div class="why-me-card">
+            <span class="why-me-icon" aria-hidden="true">◇</span>
+            <h3>Clean, Professional Frontends</h3>
+            <p>I focus on writing clean, organized code and turning ideas into responsive and functional web applications. I care about details, performance, and delivering work that actually looks professional.</p>
+          </div>
+          <div class="why-me-card">
+            <span class="why-me-icon" aria-hidden="true">◇</span>
+            <h3>Always Learning & Growing</h3>
+            <p>As a student, I’m constantly learning and growing — and I bring dedication and passion to every project I work on.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul class="skill-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <ul class="skill-tags">
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <ul class="skill-tags">
+              <li>Python <small>(basic)</small></li>
+              <li>C</li>
+              <li>C++</li>
+              <li>C#</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul class="skill-tags">
+              <li>Problem Solving</li>
+              <li>Communication</li>
+              <li>Time Management</li>
+              <li>Teamwork</li>
+              <li>Adaptability</li>
+              <li>Self-learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+          <p class="education-lead">
+            I am currently a third-year student at the Faculty of Computers and Information, majoring in Computer Science.
+            I am building strong foundations in programming, software development, and modern web technologies while applying what I learn through practical projects.
+          </p>
+          <div class="education-details">
+            <div class="education-row">
+              <span class="education-label">University</span>
+              <span class="education-value">Shrouk Academy</span>
+            </div>
+            <div class="education-row">
+              <span class="education-label">Expected Graduation</span>
+              <span class="education-value">2027</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card project-card-burgerizza">
+            <div class="project-preview-wrap" role="button" tabindex="0" aria-label="Toggle between live view and code">
+              <div class="project-view project-view-app">
+                <img src="images/project-1/running.png" alt="Burgerizza - الواجهة" onerror="this.style.display='none'">
+                <span class="project-view-hint">Click to see the code</span>
+              </div>
+              <div class="project-view project-view-code">
+                <img src="images/project-1/code.png" alt="Burgerizza - الكود" onerror="this.style.display='none'">
+                <span class="project-view-hint">Click to see the UI</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Burgerizza – Restaurant Management System</h3>
+              <p>Burgerizza is a web-based restaurant management and online ordering application designed for a single restaurant. It provides customers with a simple and fast way to browse menus, place orders, and reserve tables, while giving managers and admins the tools to efficiently manage daily operations.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview-wrap" role="button" tabindex="0" aria-label="Toggle between live view and code">
+              <div class="project-view project-view-app">
+                <img src="images/project-2/running.png" alt="Project Hub - Dashboard" onerror="this.style.display='none'">
+                <span class="project-view-hint">Click to see the code</span>
+              </div>
+              <div class="project-view project-view-code">
+                <img src="images/project-2/code.png" alt="Project Hub - Code" onerror="this.style.display='none'">
+                <span class="project-view-hint">Click to see the UI</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Project Hub – Comprehensive Project Management Dashboard</h3>
+              <p>Project Hub is a streamlined, web-based project management dashboard designed for agencies and freelancers to track multiple client projects simultaneously. It provides a visual overview of project progress, status filtering (In Progress, Completed, Pending), and quick management tools to ensure deadlines are met and client deliverables are organized in one centralized hub.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-items">
+          <a href="mailto:18amer191@gmail.com" class="contact-item">
+            <span class="contact-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <span class="contact-text">18amer191@gmail.com</span>
+          </a>
+          <a href="tel:01008042434" class="contact-item">
+            <span class="contact-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <span class="contact-text">01008042434</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ahmed-amer-4a3bb4388/" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="LinkedIn">
+            <span class="contact-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span class="contact-text">LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة بحجم كبير" hidden>
+    <button type="button" class="lightbox-close" id="lightboxClose" aria-label="إغلاق">×</button>
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ahmed AlaaEldin.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
